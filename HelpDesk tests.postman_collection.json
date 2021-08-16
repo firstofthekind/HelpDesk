@@ -6,6 +6,47 @@
 	},
 	"item": [
 		{
+			"name": "signup",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1Iiwicm9sZXMiOlsiUk9MRV9BRE1JTiJdLCJpYXQiOjE2Mjg4NTQ4NjMsImV4cCI6MTYyODg1ODQ2M30.hldjpqCdhQYTfImJ1Gh00qQ4T0ROeHS-cLJTSO61Ge8",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "localhost:8075/registration",
+					"host": [
+						"localhost"
+					],
+					"port": "8075",
+					"path": [
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
 			"name": "User Создание заявки",
 			"request": {
 				"method": "GET",
