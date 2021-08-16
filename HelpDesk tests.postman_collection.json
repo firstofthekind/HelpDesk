@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "8b89acfb-91ae-4ecd-a0ac-48767fee5421",
+		"name": "HelpDesk tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Создание заявки",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "User Заявки залогиненного пользователя",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "User Отправить черновик на рассмотрение",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "User Отредактировать заявку",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "User информация о заявке",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Admin userlist request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Admin give operator rights to user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Operator get ticketlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Operator accept ticket",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Operator decline ticket",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
